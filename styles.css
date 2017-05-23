@@ -4,6 +4,7 @@ body, html{
 body{
   margin: 0px;
   background-color:#444;
+  background-image: 
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
@@ -11,6 +12,12 @@ body, a:link, a:visited, a:active{
 }
 .title, .addDancerButton{
   padding:5px 12px;
+  float:right;
+}
+
+.lineButton{
+
+ padding:5px 12px;
   float:right;
 }
 .topbar{

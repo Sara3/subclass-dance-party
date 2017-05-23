@@ -30,6 +30,15 @@ $(document).ready(function() {
       Math.random() * 1000
     );
     $('body').append(dancer.$node);
+    dancers.push(dancer);
+  });
+  
+  $('.lineButton').on('click', function(event) {
+    // console.log(dancers);
+    for (var i = 0; i < window.dancers.length; i++ ) {
+      window.dancers[i].lineUp();
+      // console.log(window.dancers[i]);
+    }
   });
 });
 
