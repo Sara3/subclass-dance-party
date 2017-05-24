@@ -1,7 +1,7 @@
 var MakeBouncingDancer = function (top, left, timeBetweenSteps) {
   this.timeBetweenSteps = timeBetweenSteps;
   MakeDancer.apply(this, arguments);
-  // this.$node = $('<span class="bouncingDancer"></span>');
+  this.$node = $('<span class="bouncingDancer"><img src="src/sara.jpg"></span>');
   this.setPosition(top, left);
   console.log(this.bounce());
 };
